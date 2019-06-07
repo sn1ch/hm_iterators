@@ -27,7 +27,6 @@ class My_iterator:
 
 if __name__ == '__main__':
     countries = My_iterator('data/countries.json')
-
     for item in countries:
         item
     pprint(countries.result)
